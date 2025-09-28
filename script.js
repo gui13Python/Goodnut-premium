@@ -7,8 +7,8 @@ const sampleBtn = document.getElementById('sampleBtn');
 
 
 buyBtn.addEventListener('click',()=>{
-alert('Obrigado! Você será redirecionado para a página de compra (exemplo).');
-// location.href = '/comprar'; // substituir pelo link real
+alert('Obrigado! Você será redirecionado para a página de compra do nosso fornecedor.');
+location.href = 'https://s.shopee.com.br/4VTlEzUTsW'; // substituir pelo link real
 });
 
 
