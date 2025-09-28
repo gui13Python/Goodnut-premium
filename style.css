@@ -46,6 +46,20 @@ html,body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
 #sp{font-size: 12px; margin-left: 5px; font-weight: bold; color: #fcfbfb;}
 
 
+
+
+
+/* Esconder respostas por padrão */
+.a {
+  display: none;
+}
+
+/* Mostrar respostas quando a classe active estiver presente */
+.a.active {
+  display: block;
+}
+
+
 @media (max-width:200px){
 .hero-inner{flex-direction:column;align-items:center}
 .product-image{max-width:10%}
